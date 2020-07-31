@@ -17,8 +17,10 @@ function setDate (){
     const hoursDegree = ((hours /12)*360) + ((minutes/60)*30) + 90;
     hourHand.style.transform = `rotate(${hoursDegree}deg)`;
 
-    const date = now.getFullYear()+'-'+ (now.getMonth()+1)+'-'+now.getDate();
-    document.getElementById("date").innerHTML = date;
+    const year = new Intl.DateTimeFormat('en', {year:'numeric'}).format();
+    const month = new Intl.DateTimeFormat('en', {month:'long'}).format();
+    const day = new Intl.DateTimeFormat('en',{day:'2-digit' }).format();
+    document.getElementById("date").innerHTML = day+' '+ month+' '+ year;
 }
 
 setInterval(setDate,1000);
