@@ -2,7 +2,7 @@ html{
 background-image: linear-gradient(to right,rgb(64, 64, 230),rgb(119, 240, 119));
 font-family: fantasy;
 text-align: center;
-font-size: 12px;
+font-size: 10px;
 }
 
 body{
@@ -76,9 +76,10 @@ top: 48.5%;
 color: black;
 position: absolute;
 width: 50%;
-bottom: 35rem;
+bottom: 40rem;
 left: 25%;
 height: 20rem;
+font-size: 30px;
 }
 
 
