@@ -1,6 +1,6 @@
 html{
 background-image: linear-gradient(to right,rgb(64, 64, 230),rgb(119, 240, 119));
-font-family: fantasy;
+font-family: 'Courier New', Courier, monospace;
 text-align: center;
 font-size: 10px;
 }
