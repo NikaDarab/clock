@@ -62,6 +62,16 @@ width: 45%;
 left: 5%;
 }
 
+.circle {
+position: absolute;
+background: rgb(0, 0, 0);
+height: 1.5rem;
+width: 1.5rem;
+border-radius: 50%;
+left: 47%;
+top: 50%;
+}
+
 #date {
 color: black;
 position: absolute;

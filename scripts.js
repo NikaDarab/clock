@@ -22,7 +22,6 @@ function setDate (){
     const day = new Intl.DateTimeFormat('en',{day:'2-digit' }).format();
     document.getElementById("date").innerHTML = day+' '+ month+' '+ year;
 }
-
 setInterval(setDate,1000);
 
 setDate();
