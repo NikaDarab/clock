@@ -28,7 +28,7 @@ padding: 2rem;
 position: relative;
 width: 100%;
 height: 100%;
-/* transform: translateY(-3px); */
+transform: translateY(-3px);
 }
 
 .hand {
@@ -46,18 +46,23 @@ background-image: linear-gradient(to left,rgb(64, 64, 230),rgb(119, 240, 119));
 position: absolute;
 width: 25%;
 left: 25%;
-
-
 }
 .minute-hand {
-    background-image: linear-gradient(to left,rgb(64, 64, 230),rgb(119, 240, 119));    
+background-image: linear-gradient(to left,rgb(64, 64, 230),rgb(119, 240, 119));    
 position: absolute;
 height: 3px;
 width: 45%;
 left: 5%;
 }
 .second-hand {
-    background-image: linear-gradient(to left,rgb(64, 64, 230),rgb(119, 240, 119));
+background-image: linear-gradient(to left,rgb(64, 64, 230),rgb(119, 240, 119));
 position: absolute;
 height: 1px;
+}
+
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 20.5rem
 }
